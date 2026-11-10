@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Две минуты после гола</title>
+<style>
+  :root { --ink:#1c2430; --muted:#5d6b7a; --line:#e2ddd4; --paper:#f6f3ed; --card:#fff; --navy:#163a66; --gold:#8a6a22; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.45 "Segoe UI", sans-serif; }
+  .page { width: min(980px, calc(100% - 28px)); margin: 0 auto; padding: 28px 0 48px; }
+  header h1 { margin: 0; font-size: 32px; letter-spacing: -0.03em; }
+  .kicker { color: var(--gold); letter-spacing: .14em; text-transform: uppercase; font-size: 12px; margin: 0 0 6px; }
+  .muted, .note { color: var(--muted); }
+  .note { font-size: 12px; }
+  a { color: var(--navy); }
+  h2 { font-size: 20px; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--navy); }
+  h3 { font-size: 15px; margin: 0 0 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+  ol.findings { margin: 8px 0 0; padding-left: 18px; }
+  ol.findings li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 6px 7px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { color: var(--muted); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; font-weight: 650; }
+  td.name, th.name { text-align: left; white-space: normal; }
+  @media print { body { background: white; } .page { width: auto; } .card { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <p class="kicker">Тренерский штаб · ход матча</p>
+    <h1>Две минуты после гола</h1>
+    <p class="muted"><a href="index.html">Досье на игру</a> · <a href="schedule.html">Календарь и счёт</a></p>
+  </header>
+  <section class="card" style="margin-top:16px">
+    <h3>Что из этого следует</h3>
+    <ol class="findings"><li>Сразу после своего гола всплеска нет: бросков по своим воротам не больше, чем в остальной игре. В прошлом сезоне 28,1 своих и 26,5 по нам против 30,8 своих и 29,1 по нам в остальной игре, окон 113. В этом сезоне 23,0 своих и 27,8 по нам против 26,1 своих и 32,2 по нам в остальной игре, окон 43.</li><li>После пропущенного игра стихает, а не разгоняется: и свои броски, и броски по нам реже, чем в остальной игре при равных штрафах. В прошлом сезоне 25,5 своих и 19,7 по нам против 30,8 своих и 29,1 по нам в остальной игре, окон 150. В этом сезоне 18,8 своих и 18,0 по нам против 26,1 своих и 32,2 по нам в остальной игре, окон 41.</li><li>Ответный гол внутри этих двух минут редкий. После своего гола соперник забил следующим в 7 окнах из 113 в прошлом сезоне и в 6 из 43 в этом. Свой повторный гол: 4 в прошлом сезоне и 2 в этом.</li><li>Лишние броски, пока «Адмирал» ведёт в счёте, сидят не в этих двух минутах. Их видно на странице про состояние счёта: там весь отрезок лидерства, а здесь только первая пара минут после гола.</li></ol>
+  </section>
+  <h2>Равенство, два сезона</h2>
+  <p class="note">Окно — до 120 секунд игрового времени после гола в равенстве, но не дольше конца периода и не дальше следующего гола. «Остальная игра» — секунды, когда штрафы сторон равны и окно после гола не идёт. «Свои» и «по нам» — броски в створ за 60 минут такого времени. Слот — доля этих бросков по нашим воротам из зоны ближе 28 футов.</p>
+  <section class='card'><table><thead><tr><th class='name'>Отрезок</th><th>Окон</th><th>Минуты</th><th>Свои</th><th>По нам</th><th>Слот</th><th>Ещё раз мы</th><th>Ответ</th><th>Окон</th><th>Минуты</th><th>Свои</th><th>По нам</th><th>Слот</th><th>Ещё раз мы</th><th>Ответ</th></tr><tr><th></th><th colspan='7'>2025-2026</th><th colspan='7'>2026-2027</th></tr></thead><tbody><tr><td class='name'>После своего гола</td><td>113</td><td>197</td><td>28,1</td><td>26,5</td><td>27,6%</td><td>4</td><td>7</td><td>43</td><td>76</td><td>23,0</td><td>27,8</td><td>31,4%</td><td>2</td><td>6</td></tr><tr><td class='name'>После пропущенного</td><td>150</td><td>268</td><td>25,5</td><td>19,7</td><td>36,4%</td><td>1</td><td>8</td><td>41</td><td>73</td><td>18,8</td><td>18,0</td><td>36,4%</td><td>2</td><td>3</td></tr><tr><td class='name'>Остальная игра, штрафы равны</td><td>—</td><td>2946</td><td>30,8</td><td>29,1</td><td>40,0%</td><td>—</td><td>—</td><td>—</td><td>1038</td><td>26,1</td><td>32,2</td><td>39,7%</td><td>—</td><td>—</td></tr></tbody></table></section>
+  <h2>Как это посчитано</h2>
+  <p class="note">Голы в большинстве и меньшинстве окна не открывают: после них соперник часто ещё сидит в штрафе, и броски нельзя сравнивать с обычной игрой. Если следующий гол случился раньше двух минут, окно обрывается на нём, а этот гол считается ответом. Конец периода окно тоже обрывает: после сирены это уже не те же две минуты. Слот — бросок ближе 28 футов к воротам. Пустые ворота отдельно не вынуты.</p>
+</div>
+</body>
+</html>
